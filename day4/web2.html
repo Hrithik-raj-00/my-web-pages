@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Nosifer&family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap" rel="stylesheet">
+    <style>
+       /* https://github.com/iamsonukr */
+       @import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Nosifer&family=Permanent+Marker&family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap');
+
+*{
+margin: 0;
+padding: 0;
+font-family:  sans-serif;;
+}
+.parent{
+    background-image: url(https://images.pexels.com/photos/1133957/pexels-photo-1133957.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    /* background-color: blue; */
+    display: flex;   
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+.childOne:hover{
+    background-color: red;
+    transform: scale(1.4);
+    transform: rotate(50deg);
+    transition: 1s ease-in;
+}
+.childOne{
+  
+    
+}
+.childTwo:hover{
+    b
+}
+.childTwo p{
+    text-transform: lowercase;
+    letter-spacing: 1px;
+    line-height: 19px;
+    text-decoration:line-through;
+}
+.childTwo{
+  
+    /* backdrop-filter: blur(10px); */
+    /* filter: blur(10px); */
+}
+.navbar{
+    background-color: blue;
+    display: flex;
+    position: sticky;
+    top: 10px;
+  
+    align-items: center;
+    padding: 10px 100px;
+
+}
+.logo{
+    flex: 1;
+}
+.menus{
+    flex: 3;
+
+}
+.menus ul{
+    display: flex;
+    justify-content: flex-end;
+    list-style-type: none;
+}
+.menus ul li a{
+   
+    
+} 
+.menus ul li a{
+    padding  :  30px;
+    font-size: 22px;
+}
+.menus ul li a:hover{
+    text-decoration: underline;
+    color: rgb(0, 0, 0);
+    background-color: rgb(213, 235, 255);
+}
+       
+    </style>
+
+</head>
+<body>
+    <nav class="navbar">
+        <div class="logo">
+            <img  src="https://www.nasa.gov/wp-content/themes/nasa/assets/images/nasa-logo.svg" alt="" width="100px">
+
+        </div>
+        <div class="menus">
+            <ul>
+                <li><a href="">Home</a></li>
+                <li><a href="">Contacts</a></li>
+                <li><a href="">Home To reach</a></li>
+                <li><a href="">About us</a></li>
+                <li><a href="">Gallery</a></li>
+               
+            </ul>
+        </div>
+    </nav>
+
+
+    <div class="parent">
+        <div class="childOne">
+
+        </div>
+        <div class="childTwo" style="font-size: 100px; color: aliceblue; font-style: italic; font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;">
+           </p>
+          "Welcome To my web page"
+        </div>
+    </div>
+    
+</body>
+</html>

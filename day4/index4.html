@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .parent{
+            height: 100vh;
+            background-color: rgb(23, 251, 7);
+            display: flex;
+            justify-content:center;
+            align-items: center;
+        }
+        .childOne{
+            background-color: yellow;
+            height: 300px;
+            width: 300px;
+        }
+        .childOne:hover{
+            /* transform:rotate(50deg); */
+            transition: 4s;
+            transform: 10px;
+         
+            box-shadow: 10px 10px 10px; 
+          
+        }
+        .childTwo{
+            background-color: black;
+            height: 300px;
+            width: 300px;
+        }
+        .nav{
+       
+            display: flex !important;
+    
+            
+            justify-content: center;
+            align-items: center;
+            padding: 20px;
+        }
+        .menu ul{
+            display: flex;
+            gap: 50px;
+            justify-content: center;
+            align-items: start;
+            font-size: larger;
+            margin-left: 1000px;
+ 
+            padding: 10px;
+        }
+       
+        
+      
+    </style>
+</head>
+<body>
+    <!--flex box-->
+    <!--navbar-->
+    <nav>
+        <div class="    ">
+             <img style="height: 80px; width: 80px;" src="https://cdn.worldvectorlogo.com/logos/nasa-6.svg" alt=""
+           
+    
+        </div>
+        <div class="menu">
+            <ul>
+                <li>Home</li>
+                <li>contacts</li>
+                <li>Home To reach</li>
+                <li>About us</li>
+                <li>Gallery</li>
+            </ul>
+        </div>
+    </nav>
+    <div class="parent">
+        <div class="childOne">
+
+        </div>
+        <div class="childTwo">
+
+        </div>
+
+    </div>
+   
+       
+    
+</body>
+</html>
